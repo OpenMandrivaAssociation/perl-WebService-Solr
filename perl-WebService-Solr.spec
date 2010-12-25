@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Module to interface with the Solr (Lucene) webservice
 License:    GPL+ or Artistic
@@ -16,6 +16,8 @@ BuildRequires: perl(Data::Pageset)
 BuildRequires: perl(Encode)
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(JSON::XS)
+BuildRequires: perl(HTTP::Headers)
+BuildRequires: perl-libwww-perl
 BuildRequires: perl(LWP::UserAgent)
 BuildRequires: perl(Moose)
 BuildRequires: perl(Test::Mock::LWP)
