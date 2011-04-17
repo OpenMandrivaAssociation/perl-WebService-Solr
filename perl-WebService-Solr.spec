@@ -1,9 +1,9 @@
 %define upstream_name    WebService-Solr
-%define upstream_version 0.11
+%define upstream_version 0.12
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Module to interface with the Solr (Lucene) webservice
 License:    GPL+ or Artistic
