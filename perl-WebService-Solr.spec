@@ -1,5 +1,5 @@
 %define upstream_name    WebService-Solr
-%define upstream_version 0.12
+%define upstream_version 0.13
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -25,6 +25,7 @@ BuildRequires: perl(Test::More)
 BuildRequires: perl(URI)
 BuildRequires: perl(XML::Generator)
 BuildRequires: perl(XML::Simple)
+BuildRequires: perl(XML::Easy::Element)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
