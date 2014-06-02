@@ -1,2 +1,4 @@
+removed_sources:
+  WebService-Solr-0.15.tar.gz: 73f344fbb75d884e458c7261fd22e006d68bd5b2
 sources:
-  "WebService-Solr-0.15.tar.gz": 73f344fbb75d884e458c7261fd22e006d68bd5b2
+  WebService-Solr-0.23.tar.gz: 73751674060f4e1a17f65951c408ae6d17b0eafd
